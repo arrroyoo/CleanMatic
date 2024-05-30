@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parallax</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .parallax {
+        /* The image used */
+        background-image: url('/home/smx2a/cleanmatic/bmw.jpg');
+        /* Full height */
+        height: 100vh;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax-2 {
+        /* The image used */
+        background-image: url('/home/smx2a/cleanmatic/bmw.jpg');
+        /* Full height */
+        height: 100vh;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .content {
+        padding: 100px 20px;
+        text-align: center;
+        color: white;
+    }
+</style>
+</head>
+<body>
+
+<div class="parallax">
+    <div class="content">
+        <h1>Primera Imagen</h1>
+        <p>Texto descriptivo sobre la primera imagen.</p>
+    </div>
+</div>
+<br> <br>
+<div class="parallax-2">
+    <div class="content">
+        <h1>Segunda Imagen</h1>
+        <p>Texto descriptivo sobre la segunda imagen.</p>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>parallaxVVV</title>
+  <style>
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+  }
+
+#background-video {
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1; 
+  transform: translateX(-50%) translateY(-50%);
+
+}
+
+header {
+  color: white;
+  padding: 5px;
+  text-align: center;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 1; 
+}
+
+
+@font-face {
+  font-family: 'Varino';
+  src: url('/home/smx2a/cleanmatic/Varino - Normal.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Azonix';
+  src: url('/home/smx2a/cleanmatic/Azonix.otf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'astro';
+  src: url('/home/smx2a/cleanmatic/astro.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Coves Bold';
+  src: url('/home/smx2a/cleanmatic/Coves Bold.otf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Coves Light';
+  src: url('/home/smx2a/cleanmatic/Coves Light.otf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'mecaros';
+  src: url('/home/smx2a/cleanmatic/mecaros.otf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Protos';
+  src: url('/home/smx2a/cleanmatic/Protos-D1nx.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Leoscar';
+  src: url('/home/smx2a/cleanmatic/Leoscar Serif.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Leoscar2';
+  src: url('/home/smx2a/cleanmatic/Leoscar Sans Serif.ttf') format('truetype'); 
+}
+
+nav {
+font-family:Coves Light;
+background-color: rgba(238, 107, 0, 0.87);
+padding: 15px;
+text-align:left;
+  
+
+}
+nav img{
+
+  width: 40px;
+
+}
+
+
+nav a {
+text-align: right;
+color: rgb(0, 0, 0);
+text-decoration: none;
+padding: 10px 10px 10px 10px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.671);
+margin-top:50%;
+
+};
+
+
+footer {
+font-family: Coves Light;
+background-color: rgba(51, 51, 51, 0.801);
+color: #fff;
+padding: 20px;
+text-align: center;
+bottom: 0;
+width: 100%;
+}
+
+
+h1 {
+  font-family: Varino;
+  color: rgb(255, 255, 255);
+  font-size: 75px;
+  text-shadow: 2px 2px 4px rgba(134, 242, 250, 0.842);
+  text-align: center;
+}
+
+p {
+  font-family: Coves Bold;
+  color: #fff;
+  font-size: 25px; 
+  text-shadow: 2px 2px 4px rgba(255, 166, 0, 0.788);
+  padding-left: 150px;
+}
+
+.p1 {
+  font-family: Coves Bold;
+  color: #fff;
+  font-size: 30px; 
+  text-shadow: 2px 2px 4px rgba(255, 166, 0, 0.788);
+  padding-left: px;
+
+}
+
+h2 {
+  font-family: Coves Light;
+  color: rgb(255, 255, 255);
+  font-size: 65px;
+  text-shadow: 2px 2px 4px rgba(134, 242, 250, 0.842);
+  padding-left: 55px;
+}
+
+h3 {
+  font-family: Coves Bold;
+  color: #fff;
+  font-size: 35px; 
+  text-shadow: 2px 2px 4px rgb(101, 167, 243);
+  padding-left: 55px;
+
+}
+
+h4 {
+  font-family: Coves Bold;
+  color: #fff;
+  font-size: 20px; 
+  text-shadow: 2px 2px 4px rgba(0, 195, 255, 0.788);
+}
+
+
+
+
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: ;
+  
+}
+
+.opacity-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.move-right {
+  margin-left: 100px;
+}
+.move-more {
+  margin-left: 300;
+} 
+
+
+

@@ -1,0 +1,136 @@
+body {
+           
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+
+header {
+    color: white;
+    padding: 5px;
+    text-align: center;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+
+video {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; 
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+@font-face {
+font-family: 'Varino';
+src: url('/Varino - Normal.ttf') format('truetype'); 
+}
+
+
+
+@font-face {
+font-family: 'Azonix';
+src: url('/Azonix.otf') format('truetype'); 
+}
+
+@font-face {
+font-family: 'astro';
+src: url('/astro.ttf') format('truetype'); 
+}
+
+@font-face {
+font-family: 'Coves Bold';
+src: url('/Coves Bold.otf') format('truetype'); 
+}
+
+@font-face {
+font-family: 'Coves Light';
+src: url('/Coves Light.otf') format('truetype'); 
+}
+
+@font-face {
+font-family: 'mecaros';
+src: url('/mecaros.otf') format('truetype'); 
+}
+
+
+@font-face {
+font-family: 'Protos';
+src: url('/Protos-D1nx.ttf') format('truetype'); 
+}
+
+@font-face {
+font-family: 'Leoscar';
+src: url('/Leoscar Serif.ttf') format('truetype'); 
+}
+
+@font-face {
+font-family: 'Leoscar2';
+src: url('/Leoscar Sans Serif.ttf') format('truetype'); 
+}
+
+nav {
+font-family:Coves Light;
+background-color: rgba(238, 107, 0, 0.87);
+padding: 15px;
+text-align:left;
+
+}
+nav img{
+
+text-align: ;
+width: 40px;
+
+}
+
+nav a {
+text-align: right;
+color: rgb(0, 0, 0);
+text-decoration: none;
+padding: 10px 10px 10px 10px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.671);
+margin-top:50%;
+
+}
+
+footer {
+font-family: Coves Light;
+background-color: rgba(51, 51, 51, 0.801);
+color: #fff;
+padding: 20px;
+text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+h1 {
+font-family:Varino;
+font-size: 75px;
+text-shadow: 2px 2px 4px rgb(117, 191, 240);
+}
+
+h2 {
+font-family:Azonix;
+font-size: 16px; 
+text-shadow: 2px 2px 4px rgb(241, 180, 67);
+}
+
+
+
+h3 {
+font-family: Coves Bold;
+color: #fff;
+font-size: 35px; 
+text-shadow: 2px 2px 4px rgb(101, 167, 243);
+}

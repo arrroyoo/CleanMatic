@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parallax con Video</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .parallax {
+        /* Full height */
+        height: 100vh;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+    .parallax video {
+        min-width: 100%;
+        min-height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(190, 48, 48);
+        z-index: 1;
+    }
+</style>
+</head>
+<body>
+
+<div class="parallax">
+    <video autoplay loop muted>
+        <source src="video1.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="content">
+        <h1>Primer Video</h1>
+        <p>Texto descriptivo sobre el primer video.</p>
+    </div>
+</div>
+
+<div class="parallax">
+    <video autoplay loop muted>
+        <source src="video2.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="content">
+        <h1>Segundo Video</h1>
+        <p>Texto descriptivo sobre el segundo video.</p>
+    </div>
+</div>
+
+</body>
+</html>
